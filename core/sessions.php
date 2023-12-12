@@ -9,7 +9,7 @@ function sessionStore($key,$value)
 
 function  sessionGet($key)
 {
-    return $_SESSION[$key]?? [];
+    return $_SESSION[$key]??[];
 }
 
 function  sessionRemove($key)

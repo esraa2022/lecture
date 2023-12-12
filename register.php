@@ -4,6 +4,9 @@
 include('core/sessions.php');
 include('inc/header.php');
 include('navbar.php');
+include ('core/validation.php');
+
+
 ?>
 
 <h1>Regester page</h1>

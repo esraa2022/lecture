@@ -10,7 +10,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
-        <?php if(empty($_SESSION['auth'])):?>
+        <?php if(isset($_SESSION['auth'])):?>
         <li class="nav-item">
           <a class="nav-link" href="register.php">Regester</a>
         </li>

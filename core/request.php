@@ -1,13 +1,12 @@
 <?php
 
-function checkRequestMethod($method)
-{
-    if($method=='POST')
+
+    function checkRequestMethod($method)
     {
-        return true;
+        return $_SERVER['REQUEST_METHOD'] == $method;
     }
-    return false;
-}
+    
+
 
 
 ?>
